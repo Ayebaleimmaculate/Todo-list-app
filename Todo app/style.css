@@ -1,0 +1,68 @@
+ 
+#wrapper{
+    background: url('./images/drapery-fabric-stripes-3d-illustration-260nw-1621785067.webp') no-repeat center fixed;
+    background-size: cover;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 22px;
+    
+}
+
+h1 {
+    text-align: justify;
+}
+
+input[type="text"]{
+    width: 70%;
+    background: #8fb0d4;
+    border-radius: 50px;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #0d0d0d;
+    border: none;
+    font-size: 16px;
+    display: inline-block;
+    margin: 10px 12px;
+    border-radius: 30px;
+    cursor: pointer;
+   
+}
+
+ul {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    position: relative;
+}
+
+li {
+     margin-bottom: 10px; 
+}
+
+li.checked{
+   color: tomato;
+   text-decoration: line-through;
+}
+
+li span{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    line-height: 40px;
+    color: #1cdf4d;
+    border-radius: 50px;
+    text-align: center;
+}
+ 
+li span:hover{
+    background: yellow;
+} 
